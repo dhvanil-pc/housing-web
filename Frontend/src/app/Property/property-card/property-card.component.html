@@ -1,18 +1,26 @@
-<div class="row">
-  <div class="shadow-lg sm-4 p-3" style="width: 350px; height: 425px;">
-    <div class="card rounded-0"  >
-      <img class="propImgs" src="assets/Images/img.png" alt="">
 
-      <div class="card-body p-2">
-        <h1> {{Property.Name}}</h1>
-        <h2>{{Property.Type}}</h2>
-        <h2>{{Property.Price}}</h2>
+
+    <div class="card rounded-0  "  >
+      <div class="img-wrapper ">
+        <img class="propImgs card-img-top" src="assets/Images/img2.png" alt="">
+        <ul class="list-inline text-center member-icon animate">
+          <li class="list-inline-item">
+            <button class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+          </li>
+          <li class="list-inline-item">
+            <button class="btn btn-primary"><i class="fa-solid fa-address-book"></i></button>
+          </li>
+        </ul>
       </div>
 
 
+        <div class="card-body p-2">
+            <h1> {{property.Name}}</h1>
+            <h2>{{property.Type}}</h2>
+           <h2>{{property.Price}}</h2>
+        </div>
+    </div>
 
-  </div>
-  </div>
 
-</div>
+
 
