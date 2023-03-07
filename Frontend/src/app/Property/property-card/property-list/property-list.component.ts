@@ -35,13 +35,13 @@ export class PropertyListComponent implements OnInit {
           {
             "id": 5,
             "Type" : "House",
-            "Name" : "Adani House",
+            "Name" : "Phantom house",
             "Price" : 18000,
             },
             {
               "id": 6,
               "Type" : "House",
-              "Name" : "Ambani House",
+              "Name" : "Homestead Villa",
               "Price" : 30000,
               },
 
