@@ -2,7 +2,8 @@
 
     <div class="card rounded-0  "  >
       <div class="img-wrapper ">
-        <img class="propImgs card-img-top" src="assets/Images/img2.jpg" alt="">
+        <img *ngIf="property.Image" class="propImgs card-img-top" src="assets/Images/{{property.Image}}.jpg" alt="">
+        <img *ngIf="!property.Image" class="propImgs card-img-top" src="assets/Images/img2.jpg" alt="">
         <ul class="list-inline text-center member-icon animate">
           <li class="list-inline-item">
             <button class="btn btn-primary" routerLink="/property-detail/{{property.id}}"> <i class="fa-solid fa-pen-to-square"></i></button>
