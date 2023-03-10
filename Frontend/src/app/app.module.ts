@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule , HttpClient} from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms'
+
+
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { PropertyCardComponent } from './Property/property-card/property-card.component';
@@ -34,6 +38,7 @@ const appRoute : Routes = [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    FormsModule,
     RouterModule.forRoot(appRoute)
 
   ],
